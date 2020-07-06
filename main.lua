@@ -13,7 +13,7 @@ _h = display.viewableContentHeight;
 
 -- Criando Background
 local fundo = display.newGroup();
-
+local fundo 2 = 5;
 -- Fundo
 local bg1 = display.newImageRect( "images/Backgrounds/colored_desert.png", _w, _w);
 bg1.anchorX = -_w/2;
